@@ -32,10 +32,7 @@ Install all the dependencies using composer
 composer update
 ```
 
-Copy the example env file and **make the required configuration changes by filling missing entries from developer.twitter.com page** in the .env file. You need to add these
-lines: TWITTER_CLIENT_ID=your_client_id_or_consumer_key
-TWITTER_CLIENT_SECRET=your_secret_code
-TWITTER_CALLBACK_URL=http://127.0.0.1:8000/login/twitter/callback
+Copy the example env file and **make the required configuration changes and fill missing entries from developer.twitter.com page** in the .env file
 
 ```
 cp .env.example .env
@@ -52,6 +49,11 @@ Don't forget to run node commands
 ```
 npm install && npm run dev
 ```
+Change database entries in the .env file and in path config/database make it utf8 standart
+
+```
+php artisan serve
+```
 
 Start the local development server
 
@@ -64,7 +66,7 @@ You can now access the server at http://127.0.0.1:8000
 **Used command list**
 
 ```
-git clone git@github.com:boyziusas/twitter-app.git
+git clone git@github.com:boyziusas/wapp-chat.git
 cd twitter-app
 composer update
 cp .env.example .env
