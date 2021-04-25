@@ -32,7 +32,10 @@ Install all the dependencies using composer
 composer update
 ```
 
-Copy the example env file and **make the required configuration changes and fill missing entries from developer.twitter.com page** in the .env file
+Copy the example env file and **make the required configuration changes by filling missing entries from developer.twitter.com page** in the .env file. You need to add these
+lines: TWITTER_CLIENT_ID=your_client_id_or_consumer_key
+TWITTER_CLIENT_SECRET=your_secret_code
+TWITTER_CALLBACK_URL=http://127.0.0.1:8000/login/twitter/callback
 
 ```
 cp .env.example .env
