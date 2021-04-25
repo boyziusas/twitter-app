@@ -64,7 +64,7 @@ You can now access the server at http://127.0.0.1:8000
 **Used command list**
 
 ```
-git clone git@github.com:boyziusas/wapp-chat.git
+git clone git@github.com:boyziusas/twitter-app.git
 cd twitter-app
 composer update
 cp .env.example .env
