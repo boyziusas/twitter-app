@@ -52,7 +52,7 @@ npm install && npm run dev
 Change database entries in the .env file and in path config/database make it utf8 standart
 
 ```
-as default: DB_DATABASE=oxontweet
+DB_DATABASE=oxontweet
 ```
 
 Start the local development server
